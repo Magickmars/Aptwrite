@@ -170,11 +170,23 @@ nav {
     box-shadow: 8px 8px 15px var(--shadow),
                -8px -8px 15px rgba(255, 255, 255, 0.1);
 }
+.about-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  min-height: 200px; /* or auto, or whatever gives it room */
+}
 
 .about-card i {
     font-size: 2rem;
     color: var(--accent);
     margin-bottom: 20px;
+}
+.about-card h3,
+.about-card p {
+  margin: 10px 0;
+    line-height: 1.6;
 }
 
 .about-text {
