@@ -3,100 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
+    <title>Marius Strydom | Technical Content Writer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="noise"></div>
+    
     <header>
-        <nav>
-            <div class="logo">
-                <h1 class="logo-text">Your Logo</h1>
-            </div>
+        <nav class="container">
+            <div><img class="logo-img" src="Images\Small-pen.png"><span class="logo-text">Aptwrite</span></div>
+            <!--<div class="logo">MS</div>-->
             <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#portfolio">Portfolio</a>
                 <a href="#contact">Contact</a>
             </div>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
         </nav>
     </header>
 
     <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome to My Website</h1>
-            <p>Your tagline or description goes here.</p>
-            <a href="#contact" class="cta-button">Get in Touch</a>
+        <div class="container">
+            <div class="hero-content animate-fade-in">
+                <h1>Crafting Clear & Concise Technical Documentation</h1>
+                <p id="typed-text"></p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
         </div>
     </section>
 
     <section id="about" class="about">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-grid">
-            <div class="about-card">
-                <i class="fas fa-user"></i>
-                <h3>Who I Am</h3>
-                <p>Brief description about yourself.</p>
+        <div class="container">
+            <h2 class="section-title">Meet Marius Strydom</h2>
+            <div class="about-text">
+  I'm a New Zealand-based content writer, technical communicator, and web specialist with over 30 years’ experience.  
+  I help Kiwi businesses and organisations—from startups to established industry groups—communicate clearly and effectively.  
+  My expertise covers technical writing, corporate communications, translations, web content creation, and website development.  
+  Whether crafting detailed industry codes or building fast, user-friendly websites, I bring creativity, focus, and practical skill to every project.
+</div>
+
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>Technical Writing</h3>
+                    <p>I specialise in creating clear, user-friendly documentation for complex technical products.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-code"></i>
+                    <h3>Small, Fast-loading Websites</h3>
+                    <p>No everyone needs a behemoth with layers of plugins and e-commerse functionality. Sometimes you just want future customer to know where you are.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-book"></i>
+                    <h3>Articles, General content, Blog posts</h3>
+                    <p>I learned my craft as a newspaper journalist. I honed my craft as a freelancer. You get the benefit of an old-school journalist who can write web content.</p>
+                </div>
             </div>
-            <!-- Add more about cards as needed -->
         </div>
     </section>
 
     <section id="skills" class="skills">
-        <h2 class="section-title">My Skills</h2>
-        <div class="skill-bars">
-            <div class="skill-bar">
-                <h3>Skill Name</h3>
-                <div class="skill-progress" style="--progress: 80%;">
-                    <div class="skill-progress-bar"></div>
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skill-bars">
+                <div class="skill-bar" data-aos="fade-right">
+                    <h3>Technical Writing</h3>
+                    <div class="skill-progress" style="--progress: 95%"></div>
+                </div>
+                <div class="skill-bar" data-aos="fade-right" data-aos-delay="100">
+                    <h3>Articles, blog posts</h3>
+                    <div class="skill-progress" style="--progress: 90%"></div>
+                </div>
+                <div class="skill-bar" data-aos="fade-right" data-aos-delay="200">
+                    <h3>Content Strategy</h3>
+                    <div class="skill-progress" style="--progress: 80%"></div>
+                </div>
+                <div class="skill-bar" data-aos="fade-right" data-aos-delay="300">
+                    <h3>UX Writing</h3>
+                    <div class="skill-progress" style="--progress: 88%"></div>
                 </div>
             </div>
-            <!-- Add more skill bars as needed -->
         </div>
     </section>
 
     <section id="portfolio" class="portfolio">
-        <h2 class="section-title">My Work</h2>
-        <div class="portfolio-grid">
-            <div class="portfolio-item">
-                <img src="images/your-image-file.jpg" alt="Project Image">
-                <div class="portfolio-overlay">
-                    <h3>Project Title</h3>
-                    <p>Short description of the project.</p>
-                    <a href="#">View Project</a>
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="zoom-in">
+                    <img src="Images\Hieroglyph-screen.jpg" alt="Crafting, clear, concise technical documentation">
+                    <div class="portfolio-overlay">
+                        <h3>Technical Writing</h3>
+                        <p>Clear, concise technical writing. </p><p><a href="https://www.metalroofing.org.nz/sites/default/files/RoofingCOP_v25-06_2025-06-01.pdf" target="_blank" rel="noopener">The Zealand Metal Roof and Wall Cladding Code of Practice</a> </p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="Images\neon-web.jpg" alt="Focussed web design for small, local businesses">
+                    <div class="portfolio-overlay">
+                        <h3>Web Development</h3>
+                        <p>Small, fast-loading website for small businesses. No bloated plugins to manage.</p>
+                        <p>Like this one, and</p>
+                        
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="Images\Desk with coffee.jpg" alt="Articles, general web content, blog posts.">
+                    <div class="portfolio-overlay">
+                        <h3>Articles, General content, Blog posts</h3>
+                        <p>Generalist writer for articles, blogs, and web content.</p>
+                        <p><a href="https://bopbusinessnews.co.nz/100-people/local-identities/temuera-morrison/">Bay of Plenty Business News</a></p>
+                        <p><a href="https://mariusstrydom.substack.com/">Untethered Muse(ings)</a></p>
+                    </div>
                 </div>
             </div>
-            <!-- Add more portfolio items as needed -->
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <h2 class="section-title">Contact Me</h2>
-        <form class="contact-form">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="submit-btn">Send Message</button>
-        </form>
-    </section>
+    <!--<section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <form class="contact-form" data-aos="fade-up">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>-->
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title">Get in Touch</h2>
+    
+    <form class="contact-form" 
+          action="https://formsubmit.co/marius@aptwrite.nz" 
+          method="POST" 
+          data-aos="fade-up">
+          
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <!-- Optional: Redirect to a thank-you page after submit 
+      <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">-->
+
+      <!-- Optional: Customize email subject -->
+      <input type="hidden" name="_subject" value="New Contact Form Submission">
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+</section>
+
+
+
 
     <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
-        <div class="social-links">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">LinkedIn</a>
+        <div class="container">
+            <div class="social-links">
+                <a href="www.linkedin.com/in/mariusstrydom1" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/Magickmars/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+                
+            </div>
+            <p>&copy; 2025 Marius Strydom. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
