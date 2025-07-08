@@ -1,4 +1,111 @@
-/* filepath: static-site/styles.css */
+
+
+:root {
+    --primary: #2D3748;               /* Deep Blue-Gray for headings, etc. */
+    --secondary: #4A5568;             /* Muted Gray-Blue for subtext */
+    --accent: hsl(189, 20%, 46%);     /* Your requested accent */
+    --background: #F7FAFC;            /* Soft light background */
+    --card-bg: rgba(255, 255, 255, 0.92); /* Slightly more opaque for glassy feel */
+    --shadow: rgba(0, 32, 51, 0.08);  /* Softer, cooler shadow for harmony */
+    --text: #223046;                  /* Slightly deeper for contrast */
+}
+
+[data-theme="dark"] {
+    --primary: #E2E8F0;               /* Light Gray-Blue for headings */
+    --secondary: #A0AEC0;             /* Muted Gray for subtext */
+    --accent: hsl(189, 40%, 62%);     /* A lighter, more saturated teal for dark mode pop */
+    --background: #1A202C;            /* Deep navy */
+    --card-bg: rgba(26, 32, 44, 0.92);/* Glassy effect for dark cards */
+    --shadow: rgba(0, 0, 0, 0.32);    /* Darker shadow for depth */
+    --text: #E2E8F0;                  /* Crisp, light text */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+.noise {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0.03;
+    z-index: 1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Header Styles */
+header {
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    background: rgba(var(--background), 0.8);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.logo-img {
+    width: auto;
+    height: 4rem;
+    padding-right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--accent);
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    color: var(--text);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
 /* Hero Section */
 .hero {
     height: 100vh;
@@ -71,7 +178,7 @@
 }
 
 .about-text {
-    margin-bottom: 20px;
+    margin-bottom: 20PX;
 }
 
 /* Skills Section */
@@ -159,19 +266,16 @@
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-
 .portfolio-overlay,
 .portfolio-overlay h3,
 .portfolio-overlay p {
     color: #fff !important;
 }
-
 .portfolio-item:hover .portfolio-overlay {
     transform: translateY(0);
-    opacity: 1;
-}
+    opacity: 1}
 
-.portfolio-overlay a {
+    .portfolio-overlay a {
     color: #FFD700; /* bright gold */
     font-weight: bold;
     text-decoration: underline;
@@ -185,6 +289,7 @@
 .portfolio-overlay a {
     text-shadow: 0 0 5px #000;
 }
+
 
 /* Contact Section */
 .contact {
