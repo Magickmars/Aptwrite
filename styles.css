@@ -4,7 +4,7 @@
     --primary: #2D3748;               /* Deep Blue-Gray for headings, etc. */
     --secondary: #4A5568;             /* Muted Gray-Blue for subtext */
     --accent: hsl(189, 20%, 46%);     /* Your requested accent */
-    --background: #F7FAFC;            /* Soft light background */
+    --background: hsl(204, 45%, 98%);            /* Soft light background */
     --card-bg: rgba(255, 255, 255, 0.92); /* Slightly more opaque for glassy feel */
     --shadow: rgba(0, 32, 51, 0.08);  /* Softer, cooler shadow for harmony */
     --text: #223046;                  /* Slightly deeper for contrast */
@@ -14,7 +14,7 @@
     --primary: #E2E8F0;               /* Light Gray-Blue for headings */
     --secondary: #A0AEC0;             /* Muted Gray for subtext */
     --accent: hsl(189, 40%, 62%);     /* A lighter, more saturated teal for dark mode pop */
-    --background: #1A202C;            /* Deep navy */
+    --background: hsl(220, 26%, 14%);            /* Deep navy */
     --card-bg: rgba(26, 32, 44, 0.92);/* Glassy effect for dark cards */
     --shadow: rgba(0, 0, 0, 0.32);    /* Darker shadow for depth */
     --text: #E2E8F0;                  /* Crisp, light text */
