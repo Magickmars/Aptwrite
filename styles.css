@@ -311,7 +311,7 @@ nav {
 
 .contactdets {
     background: var( --card-bg)
-    top 0;
+    top: 0;
     left: auto;
     bottom: 1.5rem;
     right: auto;
