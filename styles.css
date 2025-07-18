@@ -308,28 +308,35 @@ nav {
     padding: 100px 0;
     background: var(--card-bg);
 }
+.contactgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ gap: 4rem;
+  align-items: flex-start;
+  width: 100%; 
+  
+}
 
 .contactdets {
-    background: var(--card-bg); /* Added semicolon */
-    position: absolute; /* Added position property */
-    top: 0;
-    left: auto;
-    bottom: 1.5rem;
-    right: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
+ 
+    /*width: 40%;*/
+  padding-right: 2rem;
 }
 
-}
+
 
 .contact-form {
-    max-width: 600px;
-    margin: 0 auto;
+  
+  max-width: 600px;
+ 
+  width: 100%;
+  
 }
 
 .form-group {
     margin-bottom: 20px;
+  
 }
 
 .form-group label {
@@ -361,6 +368,8 @@ nav {
 .submit-btn:hover {
     transform: translateY(-3px);
 }
+
+
 
 /* Footer */
 footer {
