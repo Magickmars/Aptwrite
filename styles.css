@@ -311,10 +311,13 @@ nav {
 
 .contactdets {
     background: var( --card-bg)
+    top 0;
+    left: auto;
+    bottom: 1.5rem;
+    right: auto;
     display: flex;
     flex-direction: column;
   justify-content: center;
-    padding-bottom: 2rem;
 }
 
 }
