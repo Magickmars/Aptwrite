@@ -309,6 +309,12 @@ nav {
     background: var(--card-bg);
 }
 
+.contactdets {
+  display: flex;
+  flex-direction: column;
+  inline-margin: auto;
+}
+
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
