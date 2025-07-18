@@ -311,8 +311,9 @@ nav {
 
 .contactdets {
     background: var( --card-bg)
-   margin-bottom: 50px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
 }
 
 }
