@@ -310,9 +310,11 @@ nav {
 }
 
 .contactdets {
-  display: flex;
-  flex-direction: column;
-  inline-margin: auto;
+    background: var( --card-bg)
+   margin-bottom: 50px;
+    text-align: center;
+}
+
 }
 
 .contact-form {
