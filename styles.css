@@ -310,14 +310,15 @@ nav {
 }
 
 .contactdets {
-    background: var( --card-bg)
+    background: var(--card-bg); /* Added semicolon */
+    position: absolute; /* Added position property */
     top: 0;
     left: auto;
     bottom: 1.5rem;
     right: auto;
     display: flex;
     flex-direction: column;
-  justify-content: center;
+    justify-content: center;
 }
 
 }
