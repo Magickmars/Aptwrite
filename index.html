@@ -1,229 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Marius Strydom - New Zealand-based technical content writer, specialising in technical writing, web development, and content strategy for Kiwi businesses.">
-    <meta name="keywords" content="technical content writer, New Zealand writer, technical documentation, web development, articles, blog posts, Kiwi businesses">
-    <title>New Zealand Technical Content Writer | Marius Strydom</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  />
+  <title>Marius Strydom | Technical Content Writer & Static Websites | AptWrite</title>
+  <meta
+    name="description"
+    content="Clear, concise technical documentation and small, fast-loading websites for New Zealand businesses. AptWrite — Gisborne-based, working nationwide."
+  />
+
+  <!-- Icons and CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-bUg3S7f0B1eGmU3A0y7c5jzjV0o8Q5m5Oa8gk4a9mZ8Q1s0d5W6i7m2E0v5Jr3w4H0fNmbm8H1yXf5K2Q5r9Yg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Open Graph (optional but helpful) -->
+  <meta property="og:title" content="AptWrite — Technical Content & Static Websites" />
+  <meta property="og:description" content="Clear, concise technical documentation and small, fast-loading websites for NZ businesses." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.aptwrite.nz/" />
+  <meta property="og:site_name" content="AptWrite" />
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "AptWrite",
+    "url": "https://www.aptwrite.nz/",
+    "logo": "https://www.aptwrite.nz/Images/Small-pen.png",
+    "sameAs": [
+      "https://www.linkedin.com/in/mariusstrydom1",
+      "https://www.facebook.com/Magickmars/"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Marius Strydom",
+      "jobTitle": "Technical Content Writer & Web Specialist",
+      "url": "https://www.aptwrite.nz/"
+    }
+  }
+  </script>
 </head>
 <body data-theme="light">
-    <div class="noise"></div>
-    
-    <header>
-        <nav class="container">
-            <div><img class="logo-img" src="images/Small-pen.png" alt="Aptwrite logo - Marius Strydom writing services"><span class="logo-text">Aptwrite</span></div>
-            <!--<div class="logo">MS</div>-->
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <button class="theme-toggle" id="themeToggle">
-                <i class="fas fa-moon"></i>
-            </button>
-        </nav>
-    </header>
+  <a href="#main" class="skip-link" style="
+    position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;
+  ">Skip to content</a>
 
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content animate-fade-in">
-                <h1>Crafting Clear & Concise Technical Documentation for New Zealand</h1>
-                <p id="typed-text"></p>
-                <a href="#contact" class="cta-button">Get in Touch</a>
-            </div>
-        </div>
-    </section>
+  <div class="noise" aria-hidden="true"></div>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">Marius Strydom</h2>
-            <div class="about-text">
-  I'm a New Zealand-based content writer, technical communicator, and web specialist with over 30 years’ experience.  
-  I help Kiwi businesses and organisations—from startups to established industry groups—communicate clearly and effectively.  
-  My expertise covers technical writing, corporate communications, translations, web content creation, and website development.  
-  Whether crafting detailed industry codes or building fast, user-friendly websites, I bring creativity, focus, and practical skill to every project.
-</div>
+  <header role="banner">
+    <nav class="container" aria-label="Main">
+      <a href="#top" class="logo-link" aria-label="AptWrite home">
+        <img class="logo-img" src="Images/Small-pen.png" alt="AptWrite logo" />
+        <span class="logo-text">AptWrite</span>
+      </a>
 
-            <div class="about-grid">
-                <div class="about-card" data-aos="fade-up">
-                    <i class="fas fa-pen-fancy"></i>
-                    <h3>Technical Writing</h3>
-                    <p>I specialise in creating clear, user-friendly documentation for complex technical products.</p>
-                </div>
-                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
-                    <i class="fas fa-code"></i>
-                    <h3>Small, Fast-loading Websites</h3>
-                    <p>No, not everyone needs a behemoth with layers of plugins, and e-commerce, backed by huge frameworks. Sometimes, you only want future customers to know where you are.</p>
-                </div>
-                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
-                    <i class="fas fa-book"></i>
-                    <h3>Articles, General content, Blog posts</h3>
-                    <p>I learned my craft as a newspaper journalist. I honed my craft as a freelancer. You get the benefit of an old-school journalist who can write web content.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Skills & Expertise</h2>
-            <div class="skill-bars">
-                <div class="skill-bar" data-aos="fade-right">
-                    <h3>Technical Writing</h3>
-                    <div class="skill-progress" style="--progress: 95%"></div>
-                </div>
-                <div class="skill-bar" data-aos="fade-right" data-aos-delay="100">
-                    <h3>Articles, blog posts</h3>
-                    <div class="skill-progress" style="--progress: 90%"></div>
-                </div>
-                <div class="skill-bar" data-aos="fade-right" data-aos-delay="200">
-                    <h3>Content Strategy</h3>
-                    <div class="skill-progress" style="--progress: 80%"></div>
-                </div>
-                <div class="skill-bar" data-aos="fade-right" data-aos-delay="300">
-                    <h3>UX Writing</h3>
-                    <div class="skill-progress" style="--progress: 88%"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2 class="section-title">Portfolio</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item" data-aos="zoom-in">
-                    <img src="images/Hieroglyph-screen.jpg" alt="Clear, concise technical documentation">
-                    <div class="portfolio-overlay">
-                        <h3>Technical Writing</h3>
-                        <p>Clear, concise technical writing. </p><p><a href="https://www.metalroofing.org.nz/sites/default/files/RoofingCOP_v25-06_2025-06-01.pdf" target="_blank" rel="noopener">The Zealand Metal Roof and Wall Cladding Code of Practice</a> </p>
-                    </div>
-                </div>
-                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="images/neon-web.jpg" alt=" Focussed web design for small, local businesses">
-                    <div class="portfolio-overlay">
-                        <h3>Web Development</h3>
-                        <p>Small, fast-loading website for small businesses. No bloated plugins to manage.</p>
-                        <p>Like this one...</p>
-                        
-                    </div>
-                </div>
-                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="images/Desk with coffee.jpg" alt=" Articles, general web content, blog posts.">
-                    <div class="portfolio-overlay">
-                        <h3>Articles, General content, Blog posts</h3>
-                        <p>Generalist writer for articles, blogs, and web content.</p>
-                        <p><a href="https://bopbusinessnews.co.nz/100-people/local-identities/temuera-morrison/">Bay of Plenty Business News</a></p>
-                        <p><a href="https://mariusstrydom.substack.com/">Untethered Muse(ings)</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact" class="contact">
-  <div class="container">
-    <h2 class="section-title">Get in Touch</h2>
-    <div class="contactgrid">
-      <div class="contactdets">
-        <p>Mobile: 027 447 0182</p>
-        <p><a href="mailto:marius@aptwrite.nz">Email me</a></p>
-        <p>or complete the contact form.</p>
+      <div class="nav-links" role="navigation" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
       </div>
-      <form class="contact-form" action="https://formsubmit.co/marius@aptwrite.nz" method="POST">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <button type="submit" class="submit-btn">Send Message</button>
-      </form>
-    </div>
-  </div>
-</section>
 
-  
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon" aria-hidden="true"></i>
+      </button>
+    </nav>
+  </header>
 
+  <main id="top" tabindex="-1" id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-content animate-fade-in">
+          <h1 id="hero-title">Clear technical documentation and fast, secure websites for New Zealand.</h1>
+          <p id="typed-text" aria-live="polite"></p>
+          <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+      </div>
+    </section>
 
-    <footer>
-        <div class="container">
-            <div class="social-links">
-                <a href="www.linkedin.com/in/mariusstrydom1" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/Magickmars/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
-                
+    <section id="about" class="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 class="section-title" id="about-title">Meet Marius Strydom</h2>
+        <div class="about-text">
+          I'm a New Zealand-based content writer, technical communicator, and web specialist with over 30 years’ experience.
+          I help Kiwi businesses and organisations—from startups to established industry groups—communicate clearly and effectively.
+          My expertise covers technical writing, corporate communications, translations, web content creation, and website development.
+          Whether crafting detailed industry codes or building fast, user-friendly websites, I bring creativity, focus, and practical skill to every project.
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card" data-aos="fade-up">
+            <i class="fas fa-pen-fancy" aria-hidden="true"></i>
+            <h3>Technical Writing</h3>
+            <p>I specialise in creating clear, user-friendly documentation for complex technical products.</p>
+          </div>
+          <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-code" aria-hidden="true"></i>
+            <h3>Small, Fast-loading Websites</h3>
+            <p>Not everyone needs a heavy, plugin-stacked site with complex e-commerce. Sometimes you just want future customers to find you—fast.</p>
+          </div>
+          <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+            <i class="fas fa-book" aria-hidden="true"></i>
+            <h3>Articles, General Content, Blog Posts</h3>
+            <p>I learned my craft as a newspaper journalist. I honed my craft as a freelancer. You get the benefit of an old-school journalist who can write web content.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 class="section-title" id="skills-title">Skills & Expertise</h2>
+        <div class="skill-bars">
+          <div class="skill-bar" data-aos="fade-right">
+            <h3>Technical Writing</h3>
+            <div class="skill-progress" style="--progress: 95%"></div>
+          </div>
+          <div class="skill-bar" data-aos="fade-right" data-aos-delay="100">
+            <h3>Articles, Blog Posts</h3>
+            <div class="skill-progress" style="--progress: 90%"></div>
+          </div>
+          <div class="skill-bar" data-aos="fade-right" data-aos-delay="200">
+            <h3>Content Strategy</h3>
+            <div class="skill-progress" style="--progress: 80%"></div>
+          </div>
+          <div class="skill-bar" data-aos="fade-right" data-aos-delay="300">
+            <h3>UX Writing</h3>
+            <div class="skill-progress" style="--progress: 88%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <h2 class="section-title" id="portfolio-title">Portfolio</h2>
+        <div class="portfolio-grid">
+          <div class="portfolio-item" data-aos="zoom-in">
+            <img src="Images/Hieroglyph-screen.jpg" alt="Technical documentation concept: screen with structured content and symbols" />
+            <div class="portfolio-overlay" aria-hidden="true">
+              <h3>Technical Writing</h3>
+              <p>Clear, concise technical writing.</p>
+              <p>
+                <a href="https://www.metalroofing.org.nz/sites/default/files/RoofingCOP_v25-06_2025-06-01.pdf" target="_blank" rel="noopener">
+                  The Zealand Metal Roof and Wall Cladding Code of Practice
+                </a>
+              </p>
             </div>
-            <p>&copy; 2025 Marius Strydom. All rights reserved.</p>
+          </div>
+
+          <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+            <img src="Images/neon-web.jpg" alt="Abstract neon web design illustration representing fast-loading static sites" />
+            <div class="portfolio-overlay" aria-hidden="true">
+              <h3>Web Development</h3>
+              <p>Small, fast-loading websites for small businesses. No bloated plugins to manage.</p>
+              <p>Like this one, and</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+            <img src="Images/Desk with coffee.jpg" alt="Desk with coffee, notebook, and laptop symbolising article and blog writing" />
+            <div class="portfolio-overlay" aria-hidden="true">
+              <h3>Articles, General Content, Blog Posts</h3>
+              <p>Generalist writer for articles, blogs, and web content.</p>
+              <p><a href="https://bopbusinessnews.co.nz/100-people/local-identities/temuera-morrison/" target="_blank" rel="noopener">Bay of Plenty Business News</a></p>
+              <p><a href="https://mariusstrydom.substack.com/" target="_blank" rel="noopener">Untethered Muse(ings)</a></p>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </section>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-        // Initialize AOS
-        AOS.init({
-            duration: 1000,
-            once: true
-        });
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 class="section-title" id="contact-title">Get in Touch</h2>
 
-        // Typed.js initialization
-        new Typed('#typed-text', {
-            strings: [
-                "Technical Content Writer & Documentation",
-                "Small, fast-loading Websites",
-                "General Web Content, Articles, and Blog Posts"
-            ],
-            typeSpeed: 50,
-            backSpeed: 30,
-            loop: true
-        });
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/marius@aptwrite.nz"
+          method="POST"
+          data-aos="fade-up"
+        >
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input autocomplete="name" type="text" id="name" name="name" required />
+          </div>
 
-        // Theme Toggle
-        const themeToggle = document.getElementById('themeToggle');
-        const icon = themeToggle.querySelector('i');
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input autocomplete="email" type="email" id="email" name="email" required />
+          </div>
 
-        themeToggle.addEventListener('click', () => {  
-            const currentTheme = document.body.dataset.theme || 'light';
-document.body.dataset.theme = currentTheme === 'dark' ? 'light' : 'dark';
-            icon.classList.toggle('fa-moon');
-            icon.classList.toggle('fa-sun');
-        });
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
 
-        // Smooth Scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
+          <!-- Optional: Redirect to a thank-you page after submit -->
+          <!-- <input type="hidden" name="_next" value="https://www.aptwrite.nz/thank-you.html"> -->
 
-       
-        // Generate Noise Texture
-        const noise = document.querySelector('.noise');
-        const ctx = document.createElement('canvas').getContext('2d');
-        ctx.canvas.width = 100;
-        ctx.canvas.height = 100;
-        
-        for (let x = 0; x < 100; x++) {
-            for (let y = 0; y < 100; y++) {
-                const value = Math.floor(Math.random() * 255);
-                ctx.fillStyle = `rgb(${value},${value},${value})`;
-                ctx.fillRect(x, y, 1, 1);
-            }
-        }
-        
-        noise.style.backgroundImage = `url(${ctx.canvas.toDataURL()})`;
-    </script>
+          <!-- Optional: Customize email subject -->
+          <input type="hidden" name="_subject" value="New Contact Form Submission" />
+
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="social-links" aria-label="Social links">
+        <a
+          href="https://www.linkedin.com/in/mariusstrydom1"
+          target="_blank"
+          rel="noopener"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/Magickmars/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Facebook"
+        >
+          <i class="fab fa-facebook" aria-hidden="true"></i>
+        </a>
+      </div>
+      <p>&copy; 2025 Marius Strydom. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
